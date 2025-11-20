@@ -43,7 +43,7 @@ form.addEventListener("submit", function (e) {
     salary,
   });
 
-  fetch("http://localhost:5000/api/details", {
+  fetch("https://finale-1-1.onrender.com", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
@@ -76,3 +76,4 @@ form.reset();
 setTimeout(function () {
 window.location.href = "index.html";}, 1000);
 });
+//"http://localhost:5000/api/details"
