@@ -43,7 +43,7 @@ form.addEventListener("submit", function (e) {
     salary,
   });
 
-  fetch("https://finale-1-1.onrender.com", {
+  fetch("https://finale-1-1.onrender.com/api/details", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
