@@ -70,10 +70,10 @@ form.addEventListener("submit", function (e) {
 
   
   //clearing the form after submission
-form.reset();
+//form.reset();
 
 //redirect to index.html after two seconds of submission
-setTimeout(function () {
-window.location.href = "index.html";}, 1000);
+//setTimeout(function () {
+//window.location.href = "index.html";}, 1000);
 });
 //"http://localhost:5000/api/details"
